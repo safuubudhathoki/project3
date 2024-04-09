@@ -1,0 +1,152 @@
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+a{
+    text-decoration: none;
+
+}
+ul{
+    list-style: none;
+}
+body{
+    font-family: Red hat display, sans-serif;
+}
+.top{
+    background: black;
+    padding: 7px 0;
+    font-size: 14px;
+}
+.con{
+    max-width: 1290px;
+    margin: auto;
+}
+.flex
+
+{
+    display: flex;
+    justify-content: space-between;
+}
+.top a {
+    color: aliceblue;
+}
+.top ul{
+    display: flex;
+    gap: 20px;
+}
+header{
+    padding: 25px 0;
+}
+nav ul{
+    display: flex;
+    gap: 20px;
+}
+nav a{
+    color: black;
+    font-weight: bold;
+    font-size: 14px;
+}
+.btn{
+    border: 1px solid red;
+    padding: 10px 20px;
+    border-radius: 5px;
+}
+.btn:hover{
+    background: red;
+    color: white;
+}
+.gap{
+    gap: 30px;
+}
+nav{
+    flex-grow: 1;
+    margin-left: 50px;
+   
+}
+.lt{
+    display: flex;
+    justify-content: space-between;
+    
+}
+.login{
+    color: aliceblue;
+}
+.login:hover i
+{
+    color: red;
+}
+.banner{
+    display: flex;
+    height: 50%;
+    width: 100%;
+    position: relative;
+}
+.w-100{
+    width: 100%;
+    position: absolute;
+
+    
+}
+.bannerbb {
+    position: relative;
+    padding: 250px 40px;
+}
+.ab{
+    display: flex;
+    box-sizing: border-box;
+    margin: 0;
+    justify-content: space-between;
+    position: absolute;
+    gap: 30px;
+    padding: 400px 20px;
+    color: black;
+}
+.ab:hover{
+    background: white;
+    color: red;
+}
+.sst{
+    display: flex;
+    box-sizing: border-box;
+    margin: 0;
+    justify-content: space-between;
+    position: absolute;
+    gap: 30px;
+    padding: 500px 60px;
+    align-items: center;
+    gap: 100%;
+    max-width: 1000px;
+    width: auto;
+}
+.asd{
+    display: flex;
+    box-sizing: border-box;
+    margin: 0;
+    justify-content: space-between;
+    padding: 600px 60px;
+    align-items: center;
+    gap: 100%;
+    max-width: 1000px;
+    position: absolute;
+    gap: 90px;
+    color: black;
+    width: auto;
+}
+.aff{
+    display: flex;
+    box-sizing: border-box;
+    margin: 0;
+    text-align: center;
+    padding: 900px;
+    width: auto;
+
+}
+.agg{
+    display: flex;
+    box-sizing: border-box;
+    margin: 0;
+    
+
+}
